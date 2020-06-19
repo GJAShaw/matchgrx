@@ -1,4 +1,4 @@
-# matchreg
+# matchrgx
 
 Command line tool to say if one or more matches of a regular expression exist in a string of characters
 
