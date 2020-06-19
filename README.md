@@ -4,6 +4,8 @@ Command line tool to say if one or more matches of a regular expression exist in
 
 Very very simple stuff - there are more sophisticated regex tools for command line out there, which will tell you how many matches there are, where they are, even highlight them for you. This tool is just a simple yes/no utility to detect the presence or absence of a regex match.
 
+Written as an Eclipse C project, hence the presence of .cproject, .project and .settings. Feel free to ignore these. There is only one source file, so it oughtn't to be too difficult to create your own build environment.
+
 ## usage
 To detect one or more regex matches in a string
 
