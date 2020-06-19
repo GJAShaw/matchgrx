@@ -52,11 +52,11 @@ int main(int argc, char **argv)
 	 * compiled using REG_NOSUB, so we supply 0 and NULL.
 	 */
 	result = regexec(
-			&regex,
-			argv[2],
-			(size_t)0, /* nmatch ignored*/
-			(regmatch_t *)NULL, /* pmatch ignored */
-			(int)CAN_MATCH_BOL_AND_EOL
+		&regex,
+		argv[2],
+		(size_t)0, /* nmatch ignored*/
+		(regmatch_t *)NULL, /* pmatch ignored */
+		(int)CAN_MATCH_BOL_AND_EOL
 	);
 	return result;
 }
