@@ -4,23 +4,23 @@ Command line tool to say if one or more matches of a regular expression exist in
 
 Very very simple stuff - there are more sophisticated regex tools for command line out there, which will tell you how many matches there are, where they are, even highlight them for you. This tool is just a simple yes/no utility to detect the presence or absence of a regex match.
 
-##usage
+## usage
 To detect one or more regex matches in a string
 
-	matchrgx regex string
+	matchrgx *regex* string
 
 To get this help text
 
 	matchrgx
 
-##parameters
+## parameters
 regex:	an extended regular expression
 
 string:	a string in which to search for the regex
 
 It is the user's responsibility to prevent the shell mangling any special characters in the arguments.
 
-##exit status
+## exit status
 0:	successful match, or 'no arguments supplied - gave help'
 
 1:	no match
