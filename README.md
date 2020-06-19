@@ -7,7 +7,7 @@ Very very simple stuff - there are more sophisticated regex tools for command li
 ## usage
 To detect one or more regex matches in a string
 
-	matchrgx *regex* string
+	matchrgx regex string
 
 To get this help text
 
@@ -27,5 +27,5 @@ It is the user's responsibility to prevent the shell mangling any special charac
 
 Any other status: regex compilation error, see regex(3) man page.
 
-##references
+## references
 [Linux Programmer's Manual REGEX(3)](https://man7.org/linux/man-pages/man3/regex.3.html)
